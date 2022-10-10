@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+.theGrid{
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(10, auto);
+    justify-content: center;   
+
+}
+
+img{
+    grid-area: 1/ 1/ 10 / 10;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    border: none;
+    border-color: aqua;
+  }
+
+.ride{
+    grid-area: 1 / 1 / span 2 / 6;
+    background-color: transparent;
+    color: red;
+
+
+}
+
+.crash{ 
+    grid-area: 1 / 7 / span 2 / 11;
+    background-color: transparent;
+    color: red;
+}
+
+.midTom{
+    grid-area: 3 / 5 / span 2 / 6 ;
+    background-color: transparent;
+    color: red;
+}
+
+.hiTom{
+    grid-area: 3 / 6 / span 2 / 8 ;
+    background-color: transparent;
+    color: red;
+}
+
+.snare{
+    grid-area: 4 / 8 / span 3 / 9;
+    background-color: transparent;
+    color: red;
+}
+
+.hiHat{
+    grid-area: 3 / 8 / 3 / 10;
+    background-color: transparent;
+    color: red;
+}
+
+.floorTom{
+    grid-area: 5 / 3 / span 2 / 5;
+    background-color: transparent;
+    color: red;
+}
+
+.baseDrum{
+    grid-area: 7 / 4 / span 3 / 8;
+    background-color: transparent;
+    color: red;
+}
+
